@@ -1,0 +1,34 @@
+Pradmenys stilių iškėlimas į css failą
+Registracija formavimas, ir css failo sukūrimas.
+CSS keliems rinkiniams iš karto
+Puslapio sekcijų formavimas: Footer, content:
+    position: ?
+    height: ?
+    padding: ?
+    min-height > height ? Kodėl?
+Footerio formatavimas: nuoroda į pradžią
+Nuorodų pozicionavimas:
+    display: ?
+    content: ?
+    height: ?
+    margin-top: ?
+Registracija failo apipavidalinimas:
+Formos: action, method:
+    input: type:
+        text: name, maxlength, placeholder, value   
+        password: name, maxlength 
+        radio: name, value
+        checkbox: name, value
+        file:
+        submit:  value
+        hidden: name, value 
+select: name
+    option: value
+textarea: 
+
+
+----------------------------------
+elementai eiluteje vinodais tarpais
+liertuvisku raidziu tvarkymas
+pilnas uzlindimas su opacity
+        

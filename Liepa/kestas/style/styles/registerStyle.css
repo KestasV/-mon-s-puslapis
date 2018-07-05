@@ -1,0 +1,116 @@
+.register-panel{
+    border-color: rgba(216, 121, 121, 0.8);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 2px 2px 20px rgba(216, 121, 121, 1);
+    outline: 0 none; 
+    overflow: auto;
+}
+    .register-panel label{
+        font-size: 13px;
+        color: rgb(59, 33, 33);
+    }
+    .register-panel input[type="checkbox"],
+    .register-panel input[type="radio"]{
+        border-radius: 100%;
+    }
+        .register-panel input[type="checkbox"]:checked,
+        .register-panel input[type="radio"]:checked{
+            border-color: rgba(216, 121, 121, 0.8);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(216, 121, 121, 0.6);
+        }
+        .register-panel input[type="checkbox"]:hover,
+        .register-panel input[type="radio"]:hover{
+            border-color: rgba(216, 121, 121, 0.8);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(216, 121, 121, 0.6);
+        }
+    .register-panel input[type="submit"], #send-msg-btn{
+        margin:20px auto;
+        display: block;
+        background: hotpink;
+        border-radius: 7px;
+        color: ghostwhite;
+        text-shadow: 2px 2px grey;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 1px 1px 4px rgb(32, 21, 21);
+        height: 30px;
+        border: 1px;
+        font-weight: 700;
+        font-size: 16px; 
+        width: 150px;
+    }
+
+    .register-panel>.input-line{
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+        .register-panel>.input-line>label{
+                height: inherit;
+                font-weight: bold;
+        }
+        .register-panel>.input-line>input[type="text"],
+        .register-panel>.input-line>input[type="password"],
+        .register-panel>.input-line>input[type="email"]{
+            margin-bottom: 10px;
+            margin:0;
+            text-indent: 10px;
+            padding: 0;
+            display: block;
+            height: 26px;
+            width: 55%;
+            float: right;
+            border-radius: 7px;
+
+        }
+            .register-panel>.input-line>input[type="text"]:focus,
+            .register-panel>.input-line>input[type="password"]:focus,
+            .register-panel>.input-line>input[type="email"]:focus{
+                border-color: rgba(216, 121, 121, 0.8);
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(216, 121, 121, 0.6);
+                outline: 0 none; 
+            }
+.info-panel{
+    background-image: url("../img/form-info.png");
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px  rgb(95, 94, 91);
+}
+.contacts-info{
+    width: 100%;
+}
+.info-panel .info-line{
+    height: 20px;
+    margin: 5px 10px;
+    padding: 5px;
+    display: block;
+    float: left;
+}
+.info-panel .info-line>div{
+  display: inline-block;
+  height: 20px;
+
+}
+.info-panel .info-line .icon-box{
+    width: 20px;
+    margin-right: 20px;
+}
+.info-panel .info-line .mail-icon{
+    background-image: url(../img/mail-icon.png);
+}
+
+.info-panel .info-line .phone-icon{
+    background-image: url(../img/phone-icon.png);
+}
+
+.info-panel .info-line .location-icon{
+    background-image: url(../img/location-icon.png);
+}
+#msg-form{
+    width: 100%;
+}
+#msg-form .msg-box{
+    height: 200px;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}

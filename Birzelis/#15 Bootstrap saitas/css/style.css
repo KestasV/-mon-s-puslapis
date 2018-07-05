@@ -1,0 +1,103 @@
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: #faf6f6;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(177, 100, 100, 0.8)
+}
+::-moz-scrollbar{
+    width: 12px;
+}
+::-mox-scrollbar-track{
+    background-color: #faf6f6;
+    -moz-box-shadow: inset 0 0 03px rgba(0, 0, 0, 0.3);
+}
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(177, 100, 100, 0.8)
+}
+
+nav {
+    background: #000000;;
+    padding:15px 0px;
+}
+
+#first {
+    background: url('../img/water.jpg') 0 center;
+    background-size: cover;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#first h1{
+    font-family: 'Permanent Marker', cursive;
+    color:#fff;
+    font-size: 60px;
+}
+
+#first p{    
+    color:#fff;
+    font-size: 25px;
+}
+
+#first .BigInfo{
+    text-align: center;
+}
+
+nav ul a{
+    color:#FFF;
+    -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+    border-bottom: 1px solid #333;
+    margin-right: 10px;
+}
+
+nav ul a:hover{
+    color:#fff;
+    text-decoration: underline;
+    border-bottom: 1px solid #FFF;
+
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
+
+
+#second{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.info-box{    
+    min-height: 50px;
+    text-align: center;
+}
+
+.info-box .article-icon{
+    font-size: 80px;    
+    color:orange;
+}
+
+.info-box .article-heading{
+    font-size: 36px;    
+    color:#333;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.info-box .article-text{
+    font-size: 14px;    
+    color:#999;
+}
+
+.article-link{
+    margin-top: 15px;
+}
+
+footer{
+    height: 100px;
+    background: #000;
+}

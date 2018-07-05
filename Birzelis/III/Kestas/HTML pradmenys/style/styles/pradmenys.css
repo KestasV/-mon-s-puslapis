@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    color: goldenrod;
+    font-style: oblique;
+    text-shadow: 2px 2px grey;
+    font-size: 18;
+}
+.inline-block{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+}
+.lists{
+    display: block;
+    margin: auto;
+}
+.position-item{
+    background-color: aqua;
+    display: block;
+    position: static;
+    margin: 5px;
+}
+.position-item-span{
+    display: inline-block;
+    background-color: aqua;
+    position: static;
+    margin: 10px;
+}
+.the-father{
+    width: 600px;
+    height: 360px;
+    background-color: grey;
+    position: static;
+    margin: auto;
+    overflow: hidden;
+}
+.square{
+    width: 150px;
+    height: 150px;
+}
+#red{
+    width:200px;
+    height: 200px;
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.background{
+    background-image: url("../style/img/background.jpg");
+    background-size: cover;
+    width: inherit;
+    height: inherit;
+}
+.table-green{
+    background:orange;
+    color:rgb(66, 50, 10);
+    font-weight: 500;
+    border:  5px dashed cyan; 
+}
+.table-green th{
+    background: rgb(46, 34, 4);
+    color:rgb(142, 187, 57);
+}
+.table-green tr:first-child th{
+    background: rgb(42, 4, 4);
+    color:rgb(185, 187, 57);
+}
+.table-green tr:nth-child(even){
+    background: magenta;
+}
+.table-green tr:nth-child(odd){
+    background: #B4da55;
+}
+
+.table-red{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table-blue{
+    background: navy;
+}
+.table-blue tr th{
+    color: blue;
+}

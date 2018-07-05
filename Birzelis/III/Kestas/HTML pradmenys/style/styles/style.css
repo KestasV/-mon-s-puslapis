@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(236, 230, 231);
+    height: 100%;
+}
+hr{
+    background-color: darkred;
+}
+h3{
+    color: darkred;
+    font-size: 25px;
+    font-style: italic;
+}
+p{
+    text-indent: 40px;
+}
+table{
+    background: black;
+    border: 5px dashed white;
+    width: 100%;
+    font-weight: 600;
+}
+table th{
+    background: gold;
+    color: darkblue;
+    font-weight:600;
+}
+
+.anchor{
+    margin-top: -80px;
+    height: 80px;
+    visibility:hidden;
+
+
+}
+
+table tr:nth-child(even){
+    background: white;
+
+}
+table tr:nth-child(odd){
+background: whitesmoke;
+}
+
+html{
+    height: 100%;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+#content{
+    padding-top:80px;
+    height: 100%;
+}
+#content .container{
+    background-color: beige;
+    padding: 10px 0px 70px 40px;
+    min-height: 100%; 
+}
+#footer{
+    background-color: darkred;
+    bottom: 0;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+html, body, #content{
+    height:100%;;
+}
+#header{
+    font-size: 35px;
+    background: darkred;
+    padding: 10px 0 10px 0;
+    height: 60px;
+    width: 100%;
+    top:0;
+    position: fixed;
+
+}
+.picture{
+    margin-top: 35px;
+    margin-left: 15%;
+    width: 70%;
+}
+.title{
+    color:wheat;
+    font-weight:1000;
+}
+page.links a{
+    color: white;
+    width: 25%;
+}
+page.links a{
+    background: 
+}
+page.links a{
+    color: rgb(247, 226, 158);
+    margin:-10px -40px;
+    padding: 10px
+}
+page.links a{
+    display: inline-block;
+    color: black;
+    width: 15%;
+    text-decoration: none;
+    text-shadow: 1px 1px rtb(95,94,91);
+    background: wheat;
+    margin: 0, 5px;
+    padding: 5px;
+    float: right;
+}
+.links a, #footer a{
+    color: rgb(247, 226, 158);
+    font-size: 25px;
+    text-decoration: none;
+}
+.links a:hover, #footer a:hover{
+    color: rgb(255, 245, 211);
+    text-shadow: 1px 1px  rgb(95, 94, 91);
+}
+

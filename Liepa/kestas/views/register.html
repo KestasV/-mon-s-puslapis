@@ -1,0 +1,69 @@
+<head>
+	<!-- Meta tagas, skirtas tekso užkodavimui-->
+	<meta charset="utf-8">
++	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/styles/style.css">
+	<link rel="stylesheet" href="../style/styles/registerStyle.css">
+	<!-- Title tagas nustato skirtuko pavadinimą-->
+@@ -13,8 +14,9 @@
+		<div class="container">
+			<span class="title">CodeAcademy Front-End</span>
+			<span class="links">
+-				<a href="pradmenys.html">Pradmenys</a>
+-				<a href="../index.html">Pagrindinis</a>
++                <a href="../index.html">Pagrindinis</a>
++                <a href="pradmenys.html">Pradmenys</a>
++				<a class="selected-link" href="register.html">Registruotis</a>
+			</span>				
+		</div>
+	</header>
+@@ -25,31 +27,32 @@ <h2>Registracija</h2>
+				<div class="register-panel">
+					<div class="input-line">
+						<label for="vardas">Vardas</label>
+-						<input type="text" id="vardas" name="vardas" maxlength="25" placeholder="Serbentautas" pattern="[a-zA-Z]{2,16}"/>
++						<input type="text" id="vardas" name="vardas" value="" maxlength="25" placeholder="Serbentautas" pattern="[a-zA-Z]{2,16}"/>
+					</div>
+					<div class="input-line">
+						<label for="pavarde">Pavardė</label>
+-						<input type="text" id="pavarde" name="pavarde" maxlength="25" placeholder="Bordiuras" pattern="[a-zA-Z]{2,16}"/>
++						<input type="text" id="pavarde" name="pavarde" value="" maxlength="25" placeholder="Bordiuras" pattern="[a-zA-Z]{2,16}"/>
+					</div>
+					<div class="input-line">
+						<label for="e-pastas">El. paštas</label>
+						<input 	type="email"
+							name="e-pastas" 
+							id="id"
++							value=""
+							maxlength="25" 
+							placeholder="Elektroninis paštas"
+							pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+						/>
+					</div>
+					<div class="input-line">
+						<label for="password">Slapatžodis</label>
+-						<input type="password" id="password" name="password" maxlength="25" placeholder="Arbuzas123" 
+-							patern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"/>
++						<input type="password" id="password" name="password" value="" maxlength="25" placeholder="Arbuzas123" 
++							pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"/>
+					</div>
+					<div class="input-line">
+						<label for="rep-password">Pakartokite slaptažodį</label>
+-						<input type="password" id="rep-password" name="rep-password" maxlength="25" placeholder="Arbuzas123" 
+-							patern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"/>
++						<input type="password" id="rep-password" value="" name="rep-password" maxlength="25" placeholder="Arbuzas123" 
++							pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"/>
+					</div>
+					<hr>
+					<h6>Koks jūsų amžius?</h6>
+@@ -95,9 +98,8 @@ <h6>Su kokiomis programavimo kalbomis esi dirbęs?</h6>
+						<option value="Moteris">Moteris</option>
+					</select>
+					<input type="hidden" value="8">
+-					<input type="file" multiple accept="text/plain">
+					<div>
+-						<input class="submit-input" type="submit" value="Registruoti"/>
++						<input class="submit-input" type="submit" value="Registruotis"/>
+					</div>
+				</div>
+				<div class="info-panel">

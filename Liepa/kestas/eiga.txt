@@ -1,0 +1,54 @@
+﻿Elementai eiluteje vinodais tarpais:
+    display: flex;
+    justify-content: space-between;
+    a tagams pritaikomas:
+        z-index: 2; nes lygiavimo metu mygtukų funkcionalumas pasislepia;
+Teksto šlygiavimas vidurį mygtuko:
+    text-align:     center;
+    vertical-align: middle;
+    min-width:      110px;
+    height:         -> toks pats kaip line height
+    line-height:    -> toks pats kaip height    
+Headerio ir footerio taisymas:
+    line-height; toks pats kaip containerio;
+    line-height:-> toks pats kaip height 
+    vertical-align: middle;
+Liertuvisku raidziu tvarkymas:
+    susitvarko su line-height ir vertical align
+Pilnas uzlindimas su opacity:
+    background: rgb(r, g, b);   ----> Keičiame:
+    opacity: 0.9;               ----> background: rgba(r, g, b, 0.9);
+--------------------------Darbo eiga-----------------------------
+Register formos koregavimas:
+.register-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.register-form>div{
+    width: 45%;
+}
+Baigiame stilizuoti Regiter puslapį:
+    box-shadow-> dokumentacija;
+    inset ?
+    input[type="input-tipas"]:focus{    
+        border-color: rgba(126, 239, 104, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+        outline: 0 none;    (tas pats kaip border, tik neužima vidinės elemento vietos)
+    }
+    input tipai:
+        email-> pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$", required???
+            (https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+            input[type="email"]:invalid:not(:focus){
+                outline: 1px solid #f00;
+            }
+        file-> name, multiple, accept (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
+        hidden: 
+    select-> name:
+        option-> value
+    textarea-> name, rows, cols | css?
+        {
+            resize: none;
+        }
+        

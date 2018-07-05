@@ -1,0 +1,62 @@
+.register-form{
+    height: 600px;
+    display: inline-flex;
+    width:80%;
+    margin: 0 10%;
+}
+.register-form>div{
+    display: inline-block;
+    height: 520px;
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+}
+.register-panel{
+    border: 2px solid rgb(73, 45, 45);
+}
+.register-panel .text-input{
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 0.2px;
+}
+.register-panel .text-input:active{
+    border: 1px solid, blue;
+}
+
+.info-panel{
+    background-image: url("../img/form-info.png");
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px  rgb(95, 94, 91);
+}
+.contacts-info{
+    width: 100%;
+}
+.info-panel .info-line{
+    height: 20px;
+    margin: 5px 10px;
+    padding: 5px;
+    display: block;
+    float: left;
+}
+.info-panel .info-line>div{
+  display: inline-block;
+  height: 20px;
+
+}
+.info-panel .info-line .icon-box{
+    width: 20px;
+    margin-right: 20px;
+}
+.info-panel .info-line .mail-icon{
+    background-image: url(../img/mail-icon.png);
+}
+
+.info-panel .info-line .phone-icon{
+    background-image: url(../img/phone-icon.png);
+}
+
+.info-panel .info-line .location-icon{
+    background-image: url(../img/mail-icon.png);

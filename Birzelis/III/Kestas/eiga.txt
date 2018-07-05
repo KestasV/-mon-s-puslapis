@@ -1,0 +1,9 @@
+Css tagai- Position, padding, margin, height
+Vartotojo kuriami tagai - header, content, footer
+Atributas ID, Css prioritetai
+Css - display, visibility, nuorodų sutvarkymas
+a tagai: stilizavimas, text-decoration, a:visited, a:link, a:hover, a:active
+Fono nuotrauka - background-image: url(myface.png), background-repreat;  
+Dėžės modelis, Sienelės - Border: width, style, color 
+Lentelių stilizavimas - tr:nth-child(odd), borders
+Sąrašų stilizavimas - list-style-type, list-style-image

@@ -1,0 +1,108 @@
+<!doctype HTML>
+<html>
+<head>
+	<!-- Meta tagas, skirtas tekso užkodavimui-->
+	<meta charset="utf-8">
+	<!-- Title tagas nustato skirtuko pavadinimą-->
+	<title>Pradmenys</title>
+    <link rel="stylesheet" href="../style/styles/style.css">
+    <style>
+        h1{
+            text-align: center;
+            color: brown;
+            font-style: oblique;
+        }
+        .position-item{
+            background-color: aqua;
+            display: block;
+            position: static;
+            margin: 5px;
+        }
+        .position-item-span{
+            display: inline-block;
+            background-color: aqua;
+            position: static;
+            margin: 10px;
+        }
+        .the-father{
+            width: 600px;
+            height: 360px;
+            background-color: grey;
+            position: static;
+            margin: auto;
+            overflow: hidden;
+        }
+        .square{
+            width: 150px;
+            height: 150px;
+        }
+        #red{
+            width:200px;
+            height: 200px;
+            background-color: red;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .background{
+            background-image: url("../style/img/background.jpg");
+            background-size: cover;
+            width: inherit;
+            height: inherit;
+        }
+        
+    </style>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<span class="title">CodeAcademy Front-end</span>
+			<span class="links">
+				<!-- Naudojamas santykinis kelias-->
+				<a href="register.html">Registruotis</a>
+                <a href="../index.html">Pagrindinis</a>
+			</span>
+		</div>
+    </header>
+	<div id="content">
+		<div class="container">
+            <h1>Pradmenys</h1>
+            
+            <h3>Display: Blocks</h3>
+            <div class="the-father">
+                <div class="position-item square"></div>
+                <div class="position-item square"></div>
+            </div>
+
+            <h3>Display: Inline-blocks</h3>
+            <div class="the-father">
+                <span class="position-item-span square"></span>
+                <span class="position-item-span square"></span>
+                <span class="position-item-span square"></span>
+                <span class="position-item-span square"></span>
+                <span class="position-item-span square"></span>
+            </div>
+
+            <h3>Class inheratence</h3>
+            <div class="the-father">
+                <div id="red" class="square">
+                    <div class="yellow square"></div>
+                </div>
+            </div>
+
+            <h3>Background image</h3>
+            <div class="the-father">
+              <div class="background">
+
+              </div>
+            </div>
+
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="container">
+			
+		</div>
+    </footer>
+</body>
+</html>
